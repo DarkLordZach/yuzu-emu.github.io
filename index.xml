@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>yuzu</title>
+    <link>https://yuzu-emu.org/</link>
+    <description>Recent content on yuzu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 02 Oct 2018 01:25:18 +0000</lastBuildDate>
+    
+	<atom:link href="https://yuzu-emu.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Building for Linux</title>
+      <link>https://yuzu-emu.org/wiki/building-for-linux/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/building-for-linux/</guid>
+      <description>Dependencies You&amp;rsquo;ll need to download and install the following to build yuzu:
+ SDL2  Arch: pacman -S sdl2 Debian: apt-get install sdl2 or apt-get install libsdl2-2.0-0 or apt-get install libsdl2-dev Fedora: dnf install SDL2-devel Gentoo: emerge media-libs/libsdl2  Qt  Arch: pacman -S qt5 Debian: apt-get install qtbase5-dev libqt5opengl5-dev Fedora: dnf install qt5-qtbase qt5-qtbase-devel Gentoo: emerge dev-qt/qtcore dev-qt/qtopengl  GCC v7+ (for C++17 support)  Arch: pacman -S base-devel Debian: apt-get install build-essential Fedora: dnf install gcc Gentoo: emerge =sys-devel/gcc-7.</description>
+    </item>
+    
+    <item>
+      <title>Building for Windows</title>
+      <link>https://yuzu-emu.org/wiki/building-for-windows/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/building-for-windows/</guid>
+      <description>THIS GUIDE IS INTENDED FOR DEVELOPERS ONLY, SUPPORT WILL ONLY BE GIVEN IF YOU&amp;rsquo;RE A DEVELOPER. MSVC Build for Windows Minimal Dependencies On Windows, all library dependencies are automatically included within the &amp;quot;externals&amp;quot; folder or can be downloaded on-demand. To build yuzu, you simply need to install:
+ Visual Studio 2017 Community - Make sure to select C++ support in the installer. CMake - Used to generate Visual Studio project files.</description>
+    </item>
+    
+    <item>
+      <title>Building for macOS</title>
+      <link>https://yuzu-emu.org/wiki/building-for-macos/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/building-for-macos/</guid>
+      <description>Dependencies It&amp;rsquo;s recommended that you use Homebrew to install dependencies. You&amp;rsquo;ll need to download and install the following to build yuzu:
+ pkg-config (brew install pkgconfig) SDL2 (brew install sdl2) Qt5 (brew install qt5) (Note: If you have Qt4 installed, then you will need to remove it before building. brew unlink qt4) CMake (brew install cmake) A recent version of Xcode and the Xcode command line tools  Cloning yuzu with Git git clone --recursive https://github.</description>
+    </item>
+    
+    <item>
+      <title>Developer Information</title>
+      <link>https://yuzu-emu.org/wiki/developer-information/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/developer-information/</guid>
+      <description>Please see the following wikipages:
+ Switch Hardware and Software Documentation Switch Homebrew and Libraries  </description>
+    </item>
+    
+    <item>
+      <title>Dumping Decryption Keys from a Switch Console</title>
+      <link>https://yuzu-emu.org/wiki/dumping-decryption-keys-from-a-switch-console/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/dumping-decryption-keys-from-a-switch-console/</guid>
+      <description>How to Dump Keys ================ In order to play games in XCI or NCA format, you must have the required keys to decrypt them.
+## Process You will need to follow this key dumping guide, however, in step 5 of the guide, you will need to rename your key file to prod.keys.
+Place it in:
+C:/Users/yourusername/AppData/Roaming/yuzu/keys (for Windows)
+~/.local/share/yuzu-emu/keys (for macOS and Linux)
+Diagram showing the correct location of the decryption keys in yuzu&amp;rsquo;s User Directory.</description>
+    </item>
+    
+    <item>
+      <title>Dumping Game Cartridges</title>
+      <link>https://yuzu-emu.org/wiki/dumping-game-cartridges/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/dumping-game-cartridges/</guid>
+      <description>This is a Placeholder page.
+It will be updated as soon as Instructions to dump Game Cartridges will be made available.</description>
+    </item>
+    
+    <item>
+      <title>Dumping Installed Titles</title>
+      <link>https://yuzu-emu.org/wiki/dumping-installed-titles/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/dumping-installed-titles/</guid>
+      <description>This is a Placeholder page.
+It will be updated as soon as Instructions to dump Installed Titles will be made available.</description>
+    </item>
+    
+    <item>
+      <title>Dumping System Archives and the Shared Fonts from a Switch Console</title>
+      <link>https://yuzu-emu.org/wiki/dumping-system-archives-and-the-shared-fonts-from-a-switch-console/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/dumping-system-archives-and-the-shared-fonts-from-a-switch-console/</guid>
+      <description>This is a Placeholder page.
+It will be updated as soon as Instructions to acquire the System Archives and Shared Fonts will be made available.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>https://yuzu-emu.org/wiki/faq/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/faq/</guid>
+      <description>What is yuzu? yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra. It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and macOS. The emulator is currently only useful for homebrew development and research purposes.
+Which software license is yuzu licensed under? yuzu is an open-source project, licensed under the GPLv2 (or any later version). Refer to the license document for more information.</description>
+    </item>
+    
+    <item>
+      <title>Home</title>
+      <link>https://yuzu-emu.org/wiki/home/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/home/</guid>
+      <description>yuzu emulator yuzu is an experimental open-source emulator for the Nintendo Switch from the creators of Citra.
+It is written in C++ with portability in mind, with builds actively maintained for Windows, Linux and macOS. The emulator is currently only useful for homebrew development and research purposes.
+yuzu only emulates a subset of Switch hardware and therefore is generally only useful for running/debugging homebrew applications. At this time, yuzu cannot play a majority of commercial games without major problems.</description>
+    </item>
+    
+    <item>
+      <title>How to Install and Use Game Updates</title>
+      <link>https://yuzu-emu.org/wiki/how-to-install-and-use-game-updates/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/how-to-install-and-use-game-updates/</guid>
+      <description>NOTE: At the time of writing this, most updates to complex games don&amp;rsquo;t work. This is because newer version uses newer Switch OS features we haven&amp;rsquo;t implemented. Prime your expectations accordingly.
+How to Install Updates  If you have an update in NCA format, click File, then Install file to NAND..., select your update NCA, and then in the drop down box select Game Update. If you get an error, double check you encryption keys and dump.</description>
+    </item>
+    
+    <item>
+      <title>Overview of Switch Game Formats</title>
+      <link>https://yuzu-emu.org/wiki/overview-of-switch-game-formats/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/overview-of-switch-game-formats/</guid>
+      <description>In Short: Use XCIs for gamecards, NSPs for anything else. You need encryption keys which you can dump with our guide
+Short Descriptions of Yuzu-supported Formats  XCI: Represents a dump of a game cartridge. Contains icons, metadata, and a switch game. Sometimes contains updates to the game as well. Used For: Dumps of Gamecards you own NSP: Contains all of the files and data needed to display icons, a title and a game.</description>
+    </item>
+    
+    <item>
+      <title>Service Function Usage</title>
+      <link>https://yuzu-emu.org/wiki/service-function-usage/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/service-function-usage/</guid>
+      <description>As a means to help with testing and verifying, this page serves to list a handful of games that use the various services provided by the Switch OS. When adding to the list make sure to alphabetize the entry being added. Also please add where the service is used, so it&amp;rsquo;s easier know where to go once the game is booted. For example, if SomeRandomFunction is used in a certain menu, indicate what menu in particular it is.</description>
+    </item>
+    
+    <item>
+      <title>Switch Hardware and Software</title>
+      <link>https://yuzu-emu.org/wiki/switch-hardware-and-software/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/switch-hardware-and-software/</guid>
+      <description> A very incomplete overview of useful information to get started with Switch development. Please add anything that&amp;rsquo;s missing :)
+Switch Hardware/Software  ReSwitched an excellent resource and community for Switch homebrew and hacking. SwitchBrew is probably the best resource for the Switch hardware/software internals. ARMv8-A Reference Manual describes Switch&amp;rsquo;s CPU architecture.  </description>
+    </item>
+    
+    <item>
+      <title>Switch Homebrew</title>
+      <link>https://yuzu-emu.org/wiki/switch-homebrew/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/switch-homebrew/</guid>
+      <description>Welcome to the fun and exciting world of Switch homebrew! Things here are brand new and highly technical, so we highly recommend that you don&amp;rsquo;t proceed unless you&amp;rsquo;d like to get your hands dirty. If so, here are the best resources for getting started:  LibTransistor, the homebrew library from the ReSwitched team. LibNx, the homebrew library from the SwitchBrew team.  Available homebrew demos:
+   Name Download License Source Notes     Spacenx https://github.</description>
+    </item>
+    
+    <item>
+      <title>Switch Mods</title>
+      <link>https://yuzu-emu.org/wiki/switch-mods/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/switch-mods/</guid>
+      <description> Welcome to the fun and exciting world of Switch modding! Available mods:
+   Name Download Homepage Notes      </description>
+    </item>
+    
+    <item>
+      <title>Troubleshooting Loader Errors</title>
+      <link>https://yuzu-emu.org/wiki/troubleshooting-loader-errors/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/troubleshooting-loader-errors/</guid>
+      <description>WIP, please ignore To use this list, press Ctrl-F (or Cmd-F on Mac) and then type in the error code from yuzu. This should look similar to XXXX-XXXX where the Xs represent numbers and letters. | Error Code | Description | | &amp;ndash; | &amp;ndash;| | 0008-0000 | Success | | 0008-0001 | ErrorAlreadyLoaded This is an internal error and should be reported to the devs immediately. | | 0008-0002 | ErrorNotImplemented | | 0008-0003 | ErrorNotInitialized | | 0008-0004 | ErrorBadNPDMHeader | | 0008-0005 | ErrorBadACIDHeader | | 0008-0006 | ErrorBadACIHeader | | 0008-0007 | ErrorBadFileAccessControl | | 0008-0008 | ErrorBadFileAccessHeader | | 0008-0009 | ErrorBadPFSHeader | | 0008-000A | ErrorIncorrectPFSFileSize | | 0008-000B | ErrorMissingHeaderKey To read any encrypted file, you need the NCA header key.</description>
+    </item>
+    
+    <item>
+      <title>Typical Git Workflow</title>
+      <link>https://yuzu-emu.org/wiki/typical-git-workflow/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/typical-git-workflow/</guid>
+      <description>This is a guide to a typical Git workflow with yuzu. It covers forking from the main repository, creating a branch, keeping your branch up to date with the main repository, resolving conflicts, and merging back into the main repository. It&amp;rsquo;s not meant to be a hard-and-fast set of rules. However, if you follow something along these lines, you&amp;rsquo;ll be less likely to piss people off.
+It&amp;rsquo;s appreciated if every single commit in a branch on its own compiles on all supported platforms (Windows, Linux, and OS X) and doesn&amp;rsquo;t cause any regressions if the commits after it were left unmerged.</description>
+    </item>
+    
+    <item>
+      <title>User Directory</title>
+      <link>https://yuzu-emu.org/wiki/user-directory/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/user-directory/</guid>
+      <description>Please note: This page is unfinished and still contains references to the Citra emulator and the Nintendo 3ds! The User Directory yuzu&amp;rsquo;s user directory is where the emulator persists the emulated Switchs NAND, save data, extra data, and a host of other files necessary for yuzu to run properly. The path of the user directory varies on different systems:
+ on Windows, the path is C:/Users/[your-user-name]/AppData/Roaming/yuzu/. Note that the folder AppData is hidden by default, so you need to change the configuration to view it.</description>
+    </item>
+    
+    <item>
+      <title>yuzu Web Service</title>
+      <link>https://yuzu-emu.org/wiki/yuzu-web-service/</link>
+      <pubDate>Tue, 02 Oct 2018 01:25:18 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/wiki/yuzu-web-service/</guid>
+      <description>yuzu Web Tokens yuzu web tokens are unique identifiers that allow your personal yuzu installation to be able to log in to yuzu&amp;rsquo;s Web Services, without having to save your email and password. Logging in to your Web Services account allows you to provide more detailed statistics with telemetry, among other things.
+Getting A Token  If you haven&amp;rsquo;t done so already, register on the yuzu Community Forums. Log in to your forum&amp;rsquo;s account.</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1046916164780265473 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1046916164780265473/</link>
+      <pubDate>Tue, 02 Oct 2018 00:13:59 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1046916164780265473/</guid>
+      <description>@NaxBrian It&amp;rsquo;s coming soon!</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1046579783776309249 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1046579783776309249/</link>
+      <pubDate>Mon, 01 Oct 2018 01:57:19 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1046579783776309249/</guid>
+      <description>We&amp;rsquo;ve been quiet lately - but that does not mean we aren&amp;rsquo;t working hard! Texture cubemaps has been merged, and we n… https://t.co/oAntYrybEC</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1039608663260975104 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1039608663260975104/</link>
+      <pubDate>Tue, 11 Sep 2018 20:16:34 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1039608663260975104/</guid>
+      <description>Lots of AMAZING progress in the past few months - and with it comes a new yuzu Progress Report! Check out all the g… https://t.co/15JC8TeNeE</description>
+    </item>
+    
+    <item>
+      <title>Progress Report 2018 Part 3</title>
+      <link>https://yuzu-emu.org/entry/yuzu-progress-report-2018-p3/</link>
+      <pubDate>Tue, 11 Sep 2018 22:00:00 +0530</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/yuzu-progress-report-2018-p3/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s only been over a month since our last report, and we have made so much progress already that we simply can&amp;rsquo;t wait to share it with you guys.
+Without further ado, let&amp;rsquo;s dive in.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1037848005620248576 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1037848005620248576/</link>
+      <pubDate>Thu, 06 Sep 2018 23:40:21 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1037848005620248576/</guid>
+      <description>We&amp;rsquo;ve been quiet lately, but lots of work has been going on! Check out how Mario is looking these days&amp;hellip; https://t.co/5yJ3VjXNZp</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1035327879528239105 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1035327879528239105/</link>
+      <pubDate>Fri, 31 Aug 2018 00:46:16 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1035327879528239105/</guid>
+      <description>SMO is now getting 30-50FPS across multiple kingdoms on good HW! Many accuracy improvements as well. As always, ple… https://t.co/v3CPWT6gyv</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1033548542743388162 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1033548542743388162/</link>
+      <pubDate>Sun, 26 Aug 2018 02:55:49 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1033548542743388162/</guid>
+      <description>yuzu is now able to install and use game updates! Come check out all the great work we&amp;rsquo;re doing at… https://t.co/APT7BxW1t5</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1032781233976213505 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1032781233976213505/</link>
+      <pubDate>Fri, 24 Aug 2018 00:06:48 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1032781233976213505/</guid>
+      <description>Big speedups thanks to @notfunnei&amp;rsquo;s shader cache changes. While YMMV, with a bit of massaging, you too can catch th… https://t.co/GuQ8GfJ2bT</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1032300040696549377 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1032300040696549377/</link>
+      <pubDate>Wed, 22 Aug 2018 16:14:43 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1032300040696549377/</guid>
+      <description>We&amp;rsquo;ve continued to make some fantastic progress on SMO rendering in the past few days, check out this great video f… https://t.co/UfNXNwVUzT</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1031247694763892736 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1031247694763892736/</link>
+      <pubDate>Sun, 19 Aug 2018 18:33:04 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1031247694763892736/</guid>
+      <description>One of our users managed to fend off the vertex explosion and beat the first boss! This is probably the first tripl… https://t.co/COeny9b9le</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1029425508977659904 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1029425508977659904/</link>
+      <pubDate>Tue, 14 Aug 2018 17:52:21 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1029425508977659904/</guid>
+      <description>There&amp;rsquo;s now an open-source emulator that runs BotW in-game :) Check out this great video from @B5od_Gaming showing… https://t.co/QWS2s4NDUa</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1028707852523909126 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1028707852523909126/</link>
+      <pubDate>Sun, 12 Aug 2018 18:20:39 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1028707852523909126/</guid>
+      <description>SMO isn&amp;rsquo;t the only game we&amp;rsquo;re working on&amp;hellip; BoTW is now booting, and we&amp;rsquo;re in-game with ARMS! As usual, if you like… https://t.co/hmgInujkVU</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1028514151520522242 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1028514151520522242/</link>
+      <pubDate>Sun, 12 Aug 2018 05:30:57 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1028514151520522242/</guid>
+      <description>Lots of progress on the SMO front in the past few days - check out these great videos showing off our work -… https://t.co/RVm1JXUhea</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1027812960444600320 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1027812960444600320/</link>
+      <pubDate>Fri, 10 Aug 2018 07:04:40 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1027812960444600320/</guid>
+      <description>Can anyone guess what kingdoms we&amp;rsquo;re in? We&amp;rsquo;ve got SMO ingame and we&amp;rsquo;re working every day to get it better! If you… https://t.co/iN1tDpJ1Ra</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1027066281441341440 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1027066281441341440/</link>
+      <pubDate>Wed, 08 Aug 2018 05:37:38 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1027066281441341440/</guid>
+      <description>We&amp;rsquo;ve gotten a few requests to work on SMO&amp;hellip; to say the least. We&amp;rsquo;re working on it!! First 3D graphics! Expect mor… https://t.co/jL9sGzK7jw</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1025986411864973312 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1025986411864973312/</link>
+      <pubDate>Sun, 05 Aug 2018 06:06:37 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1025986411864973312/</guid>
+      <description>We&amp;rsquo;d like to announce that yuzu now has a Patreon! https://t.co/9TAOcCxEFN Here&amp;rsquo;s a taste of our recent progress wi… https://t.co/BlAqujZWWS</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1024054945769828353 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1024054945769828353/</link>
+      <pubDate>Mon, 30 Jul 2018 22:11:39 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1024054945769828353/</guid>
+      <description>Huge progress lately: Audio output, encrypted XCI and NCA support, speed improvements, and more! All available in t… https://t.co/Pin0Arwrfm</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1021098944577835011 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1021098944577835011/</link>
+      <pubDate>Sun, 22 Jul 2018 18:25:34 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1021098944577835011/</guid>
+      <description>With so many new games booting, here&amp;rsquo;s another yuzu Progress Report! Check it out: https://t.co/CfEUxZRW1D</description>
+    </item>
+    
+    <item>
+      <title>Progress Report 2018 Part 2</title>
+      <link>https://yuzu-emu.org/entry/yuzu-progress-report-2018-p2/</link>
+      <pubDate>Sat, 21 Jul 2018 20:00:00 +0530</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/yuzu-progress-report-2018-p2/</guid>
+      <description>&lt;p&gt;We bring you part 2 of the extensive coverage on yuzu&amp;rsquo;s tremendous progress. So buckle up for an
+exciting ride, cause its gonna blow your mind!
+&amp;nbsp;
+&lt;h5 style=&#34;text-align: center;&#34;&gt;
+&lt;strong&gt;&lt;em&gt;Haven&amp;rsquo;t read the first part yet? Read it &lt;a href=&#34;https://yuzu-emu.org/entry/yuzu-progress-report-2018-p1-1&#34;&gt;here&lt;/a&gt;&lt;/em&gt;&lt;/strong&gt;
+&lt;/h5&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1018892148429742080 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1018892148429742080/</link>
+      <pubDate>Mon, 16 Jul 2018 16:16:32 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1018892148429742080/</guid>
+      <description>Thanks @ComplainingUK for a great progress video on yuzu! Check it out https://t.co/T7XiPQrFMm</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1018165882881806336 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1018165882881806336/</link>
+      <pubDate>Sat, 14 Jul 2018 16:10:37 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1018165882881806336/</guid>
+      <description>yuzu runs its first 3D rendered game, Minecraft Story Mode! Check it out in latest Canary builds! https://t.co/8FY1zFoM7X</description>
+    </item>
+    
+    <item>
+      <title>Tweet 1018165151340646400 by yuzuemu</title>
+      <link>https://yuzu-emu.org/entry/tweet_1018165151340646400/</link>
+      <pubDate>Sat, 14 Jul 2018 16:07:43 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/tweet_1018165151340646400/</guid>
+      <description>@legoj15 Depends on how active our writers can be - it&amp;rsquo;s difficult getting people to commit to writing a report eve… https://t.co/v7uHqFc57O</description>
+    </item>
+    
+    <item>
+      <title>Progress Report 2018 Part 1</title>
+      <link>https://yuzu-emu.org/entry/yuzu-progress-report-2018-p1/</link>
+      <pubDate>Sat, 14 Jul 2018 08:00:00 +0530</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/yuzu-progress-report-2018-p1/</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s been a bumpy ride. We have had lots of stuff happen to yuzu and we are excited to share that
+with you. Let&amp;rsquo;s get started!
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>First games are running!</title>
+      <link>https://yuzu-emu.org/entry/first-games-are-running/</link>
+      <pubDate>Sun, 15 Apr 2018 01:18:00 -0500</pubDate>
+      
+      <guid>https://yuzu-emu.org/entry/first-games-are-running/</guid>
+      <description>&lt;p&gt;A major milestone in yuzu has been reached, as it can now boot a handful of the Nintendo Switch&amp;rsquo;s more primitive games.  Don&amp;rsquo;t believe us?  Take a look!
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Community Rules</title>
+      <link>https://yuzu-emu.org/rules/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/rules/</guid>
+      <description>Warez/downloading games talk is prohibited. To prevent legal issues, you may not request or refer to any kind of ROM, NAND, ISO, game, or other copyrighted material that has been illegally obtained or shared. This rule also applies to pre-release leaks. We don&amp;rsquo;t allow discussion / support requests about games until they are officially released.
+If any post like that is found, the thread containing it will be locked and further support revoked.</description>
+    </item>
+    
+    <item>
+      <title>Donations</title>
+      <link>https://yuzu-emu.org/donate/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/donate/</guid>
+      <description>Developing an emulator for a modern, complex system like the Nintendo Switch requires significant hard work and dedication from a large team of developers. We will never charge you for yuzu and will always make our source code freely available. We do not make any money from our work, however development has many expenses that are often paid out-of-pocket by our team members, among them
+ Switch consoles to explore and reverse-engineer the hardware Switch games for testing, reverse-engineering, and implementing new features Web hosting and infrastructure setup Software licenses (e.</description>
+    </item>
+    
+    <item>
+      <title>Downloads</title>
+      <link>https://yuzu-emu.org/downloads/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/downloads/</guid>
+      <description>The nightly build of yuzu contains already reviewed and tested features. If you require support with the installation or use of yuzu, or you want to report bugs you should use this version. This version is still in development, so expect crashes and bugs.
+The canary build of yuzu is the same as our nightly builds, with additional features that are still waiting on review before making it into the official yuzu builds.</description>
+    </item>
+    
+    <item>
+      <title>Error Codes Reference Document</title>
+      <link>https://yuzu-emu.org/help/reference/error-codes/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/help/reference/error-codes/</guid>
+      <description>To use this list, press Ctrl-F and then type in the error code from yuzu. This should look similar to XXXX-XXXX where the Xs represent numbers and letters. Key Errors Please use the general how-to guide, which includes instructions on dumping the necessary files from your switch to have yuzu derive all of your keys, For all: If you try to run recent games and you haven&amp;rsquo;t done the key derivation process recently, you may need to redump and rerun it as newer games use newer keys only available on newer firmwares.</description>
+    </item>
+    
+    <item>
+      <title>Screenshots</title>
+      <link>https://yuzu-emu.org/screenshots/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/screenshots/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Telemetry</title>
+      <link>https://yuzu-emu.org/help/features/telemetry/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://yuzu-emu.org/help/features/telemetry/</guid>
+      <description>yuzu has some issues, and by its nature as an open source project, they are visible to everyone and fixable by anyone. Unfortunately though, most contributions are made by a small minority of developers. These developers have found it difficult to prioritize their efforts, since the majority of issue reports are written scattered across Discord, Reddit, forums, IRC, and too many other places to count.
+Because of this, the yuzu team has put together a framework to report data about how yuzu is used to our server, and use that data to discover what are the most popular games and hardware configurations, where emulated games crash in yuzu most often, and more.</description>
+    </item>
+    
+  </channel>
+</rss>
